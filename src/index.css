@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,300&family=Nunito:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.paginate{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+justify-content: end;
+}
+
+.paginate li{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(159, 159, 159);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
